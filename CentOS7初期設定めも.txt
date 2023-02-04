@@ -2,11 +2,13 @@
 
 #sshログイン
 
-#ユーザー作って、パスワード設定
+#ユーザー作成
 
 #sudo の設定ファイル変更
+$ sudo visudo
 
 #ユーザーをグループ wheel に追加
+$ sudo usermod -G wheel ***
 
 #公開鍵をユーザーの ~/.ssh/authorized_keys に追加（この作業は、アクセスするPCごとに必要）
 
